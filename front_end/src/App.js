@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      Hello
+      Basil's first AWS APP
     </div>
   );
 }
