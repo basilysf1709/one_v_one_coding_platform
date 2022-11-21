@@ -1,7 +1,7 @@
 import React from 'react';
-import {fetchData} from './AWS_Functions';
+import {fetchData} from './AWS_Dynamo/AWS_Functions';
 
-function App() {
+const App = () => {
 
   const fetchDataFormDynamoDb = () => {
     fetchData('coding_table');
